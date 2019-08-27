@@ -441,6 +441,23 @@ height:50vh;
 <!-- City版安装代码已完成 -->
     
     
+<div id="container"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+    var gitment = new Gitment({
+        // id: "摩斯密码编译器", // 可选。默认为 location.href
+        owner: '07-Patrick',
+        repo: '07-Patrick.github.io',
+        oauth: {
+            client_id: '52a83f433a5c7a627d8c',
+            client_secret: '6fc5c4902e9fdceedbb4a79b74c088c13e4ea512',
+        },
+    })
+    gitment.render('container')
+
+</script>
+
     <!-- partial('_partial/comment/changyan') -->
     <!--PC版-->
 
@@ -593,12 +610,12 @@ top:50vh;
     
     
     
-    <div class="archive-year"> Invalid date </div>
+    <div class="archive-year"> 2019 </div>
     <ul class="year-list">
     
     
         <li class="archive-post-item">
-            <span class="archive-post-date">Invalid date</span><a class="archive-post-title" href= "/2019/08/24/hello-world/" >Hello World</a>
+            <span class="archive-post-date">08/26</span><a class="archive-post-title" href= "/2019/08/26/摩斯密码编译器/" >摩斯密码编译器</a>
         </li>
     
     
@@ -607,12 +624,12 @@ top:50vh;
     
         </ul>
     
-    <div class="archive-year"> 2019 </div>
+    <div class="archive-year"> Invalid date </div>
     <ul class="year-list">
     
     
         <li class="archive-post-item">
-            <span class="archive-post-date">08/26</span><a class="archive-post-title" href= "/2019/08/26/摩斯密码编译器/" >摩斯密码编译器</a>
+            <span class="archive-post-date">Invalid date</span><a class="archive-post-title" href= "/2019/08/24/hello-world/" >Hello World</a>
         </li>
     
     </div>
@@ -657,7 +674,6 @@ jsonContent:
     <div class="iconfont-archer sidebar-categories-empty">&#xe678;</div>
     <div class="sidebar-categories-list"></div>
 </div>
-        <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=370 src="//music.163.com/outchain/player?type=0&id=2958008103&auto=1&height=430"></iframe>
     </div>
 </div> 
     <script>
